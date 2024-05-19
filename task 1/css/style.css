@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+.layout{
+    width: 960px;
+    margin: 0 auto;
+}
+#row1{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.header_section{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{}
+.logo img{height: 50px;
+    padding-left:100px;
+    padding-top: 4px;}
+.logo{}
+.menu ul{
+    display: flex;
+   
+}
+.menu ul li {
+    padding-left: 30px;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.blog_btn{}
+.search_bar{color: #ffffff;}
+.search_bar input{
+    background-color: rgb(65, 65, 65);
+    padding: 7px 20px;
+    border: 2px solid #fff ;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.search_bar i{}
+
+/* *************ROW2***************** */
+#row2{
+    height: 500px;
+    width: 100%;
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_section{
+    width: 80%;
+    color: #fff;
+    text-align: center;
+}
+.banner_section h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner_section p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.banner_section button{
+    background-color: rgb(0, 0, 0);
+    padding: 7px 20px;
+    border: 2px solid #fff ;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+/* ***************Feature Section*************** */
+#row3{
+    height: 360px;
+    background-color: rgb(0, 0, 0);
+
+}
+.secvice_section{}
+.secvice_section h3{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.service_container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service_item{
+    text-align: center;
+}
+.service_item i{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(3, 72, 99);
+    border-radius: 50%;
+    line-height: 80px;
+    font-size: 30px;
+    color: #fff;
+}
+.service_item h4{
+    padding-top: 20px;
+    color: #fff;
+}
+.service_item p{
+    text-align: center;
+    color: #fff;
+}
+
+/* ***************Protfolio Section****************** */
+#row4{}
+.slogan-section{
+    color: rgb(255, 255, 255);
+    height: 65px;
+    width: 100%;
+    padding: 0px 0px;
+    background: rgb(0, 0, 0);
+    text-align:center ;
+}
+.slogan-section-right h1{
+    float: left;
+    width: 100%px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left:300px;
+    padding-right: 0px;
+}
+.slogan-section-left p{
+    width: 240px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left:30px;
+    float: left;
+    font-size: 20px;
+    border-left: 2px solid ;
+    padding-left:40px;
+    text-align: left;
+}
+/* ***********************row4 END************************* */
+#row5{}
+.about-section{
+    height: 400px;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    padding:50px 0px;
+    color: white;
+}
+.about-left{
+    width: 40%;
+    float:left;
+   padding-left: 30px;
+   padding-right: 100px;
+}
+.about-left h2{
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.about-left p{
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.apout-left button{
+    border:2px solid black;
+    padding: px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.about-right{
+    width: 40%;
+    margin-right: 1px;
+    float: left;
+}
+.about-right img{
+    height: 400px;
+    width: 441px;
+}
+.about-right p{
+    font-size: 14px;
+    padding-bottom: 19px;
+}
+
+.about-left img{
+    height: 410px;
+    width: 476px;
+}
+/* ***********************row5 END************************* */
+#row6{}
+.slog-section{
+    height: 250px;
+    width: 100%;
+    padding: 50px 0px;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+.slog-section h3{
+    text-align: center;
+    padding-top: 70px;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+}
+.slog-section h3 q{}
+.slog-section h5{
+    text-align: center;
+    color: aqua;
+    font-size: 18px;
+}
+/* ***********************row6 END************************* */
+#row7{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.protfolio_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.protfolio_top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.protfolio_title{}
+.protfolio_title h3{
+    color: #fff;
+}
+.protfolio_more{}
+.protfolio_more button{ background-color: rgb(0, 0, 0);
+    padding: 7px 20px;
+    border: 2px solid #fff ;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;}
+.protfolio_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.protfolio_item{}
+.protfolio_item h4{
+    color: white;}
+.protfolio_item p{ color: white;}
+.protfolio_card{
+    width: 250px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+.protfolio_card img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+.card_icon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    text-align: center;
+}
+.protfolio_card i{
+  
+ background-color: white;
+ color: black;
+ padding: 8px 20px;
+}
+
+.protfolio_card:hover .card_icon{
+    top: 45%;
+    transition: 2s;
+}
